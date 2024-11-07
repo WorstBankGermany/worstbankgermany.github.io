@@ -1,0 +1,296 @@
+/* Grundlegende Stile für den Body */
+body {
+    font-family: Arial, sans-serif; /* Schriftart */
+    margin: 0; /* Kein Standardmargin */
+    padding: 0; /* Kein Standardpadding */
+    background-color: #f4f4f4; /* Heller Hintergrund */
+    color: #333; /* Dunkle Schriftfarbe für besseren Kontrast */
+    line-height: 1.6; /* Verbesserung der Lesbarkeit */
+}
+
+/* Header-Stile */
+header {
+    background: #FF5733; /* Orange-rot für Header */
+    color: #fff; /* Weiße Schriftfarbe im Header */
+    padding: 20px 0; /* Mehr Padding oben und unten */
+    text-align: center; /* Text zentriert */
+}
+
+/* Navigation */
+nav ul {
+    list-style: none; /* Keine Aufzählungszeichen */
+    padding: 0; /* Kein Padding */
+}
+
+nav ul li {
+    display: inline; /* Horizontale Anordnung */
+    margin-right: 20px; /* Abstand zwischen Links */
+}
+
+nav ul li a {
+    color: #fff; /* Weiße Schrift für Navigation */
+    text-decoration: none; /* Keine Unterstreichung */
+    font-weight: bold; /* Fett für bessere Lesbarkeit */
+    padding: 10px 15px; /* Abstand um die Links */
+    border-radius: 5px; /* Abgerundete Ecken */
+    transition: background 0.3s; /* Sanfte Übergänge */
+}
+
+nav ul li a:hover {
+    background: #FF8563; /* Dunkleres Orange beim Hover */
+}
+
+/* Hero-Bereich */
+.hero {
+    background: url('bilder/hero-image.jpg') no-repeat center center/cover; /* Hero Bild */
+    color: white; /* Textfarbe */
+    padding: 100px 20px; /* Innenabstand */
+    text-align: center; /* Text zentriert */
+}
+
+.hero h2 {
+    font-size: 2.5em; /* Größerer Titel */
+}
+
+.hero p {
+    font-size: 1.2em; /* Größerer Text */
+}
+
+/* Call-To-Action Button */
+.cta-button {
+    background: #FF8563; /* Button-Hintergrund */
+    color: #fff; /* Weiße Schriftfarbe */
+    padding: 15px 30px; /* Button-Padding */
+    text-decoration: none; /* Keine Unterstreichung */
+    border-radius: 5px; /* Abgerundete Ecken */
+    font-weight: bold; /* Fetter Text */
+    transition: background 0.3s; /* Sanfter Übergang */
+}
+
+.cta-button:hover {
+    background: #FF5733; /* Dunkleres Orange beim Hover */
+}
+
+/* Dienstleistungen */
+.services {
+    padding: 20px;
+    text-align: center; /* Text zentriert */
+}
+
+.service {
+    background: #f9f9f9; /* Heller Hintergrund für jeden Service */
+    margin: 20px; /* Abstand zwischen den Services */
+    padding: 20px; /* Innenabstand */
+    border-radius: 5px; /* Abgerundete Ecken */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Schatten für Tiefe */
+}
+
+/* Footer-Stile */
+footer {
+    text-align: center; /* Text zentriert */
+    padding: 20px; /* Innenabstand */
+    background: #333; /* Dunkler Footer-Hintergrund */
+    color: #fff; /* Weiße Schriftfarbe im Footer */
+}
+
+/* Teammitglieder */
+.team-member {
+    margin: 20px;
+    text-align: center; /* Text zentriert */
+}
+
+.team-photo {
+    width: 150px; /* Breite der Bilder */
+    height: 150px; /* Höhe der Bilder */
+    object-fit: cover; /* Behält das Seitenverhältnis und schneidet das Bild zu */
+    border-radius: 50%; /* Macht die Bilder rund */
+}
+
+/* Kontaktbereich */
+.contact {
+    margin: 20px;
+    padding: 20px; /* Innenabstand */
+    background-color: #fff; /* Weißer Hintergrund für den Kontaktbereich */
+    border-radius: 5px; /* Abgerundete Ecken */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Schatten */
+}
+
+.contact h2 {
+    color: #ff8c00; /* Orange Farbe für die Überschrift */
+}
+
+/* Kontoerstellungsbereich */
+.account-creation {
+    margin: 20px;
+    padding: 20px; /* Innenabstand */
+    background-color: #fff; /* Weißer Hintergrund für das Formular */
+    border-radius: 5px; /* Abgerundete Ecken */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Schatten */
+}
+
+.account-creation label {
+    display: block; /* Blockelement für Labels */
+    margin: 10px 0 5px; /* Abstand oben und unten */
+}
+
+.account-creation input {
+    width: 100%; /* Breite */
+    padding: 10px; /* Innenabstand */
+    margin-bottom: 10px; /* Abstand unten */
+    border: 1px solid #ccc; /* Rand */
+    border-radius: 4px; /* Abgerundete Ecken */
+}
+
+.account-creation button {
+    background-color: #ff8c00; /* Orange Farbe für den Button */
+    color: white; /* Weiße Schriftfarbe */
+    padding: 10px 15px; /* Innenabstand */
+    border: none; /* Kein Rand */
+    border-radius: 4px; /* Abgerundete Ecken */
+}
+
+.account-creation button:hover {
+    background-color: #e07b00; /* Dunkleres Orange bei Hover */
+}
+
+/* Willkommensbereich */
+.welcome {
+    margin: 20px;
+    padding: 20px; /* Innenabstand */
+    background-color: #f8f8f8; /* Heller Hintergrund */
+    border-radius: 5px; /* Abgerundete Ecken */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Schatten */
+}
+
+.welcome h2 {
+    color: #ff8c00; /* Orange Farbe für die Überschrift */
+}
+
+/* Button */
+.button {
+    display: inline-block; /* Blockelement für die Schaltfläche */
+    padding: 10px 15px; /* Innenabstand */
+    background-color: #ff8c00; /* Orange Hintergrundfarbe */
+    color: white; /* Weiße Schriftfarbe */
+    text-decoration: none; /* Keine Unterstreichung */
+    border-radius: 4px; /* Abgerundete Ecken */
+}
+
+.button:hover {
+    background-color: #e07b00; /* Dunkleres Orange bei Hover */
+}
+
+/* Faktenbereich */
+.fun-facts {
+    margin: 20px;
+    padding: 20px; /* Innenabstand */
+    background-color: #fff; /* Weißer Hintergrund für die Fakten-Sektion */
+    border-radius: 5px; /* Abgerundete Ecken */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Schatten */
+}
+
+.fun-facts h2 {
+    color: #ff8c00; /* Orange Farbe für die Überschrift */
+}
+
+.fun-facts ul {
+    list-style-type: disc; /* Aufzählungszeichen */
+    margin: 10px 0 0 20px; /* Einrücken der Liste */
+}
+
+.fun-facts li {
+    margin-bottom: 10px; /* Abstand zwischen den Fakten */
+}
+.logo {
+    width: 50px; /* Breite des Logos auf 50px erhöhen */
+    height: auto; /* Höhe automatisch anpassen, um das Seitenverhältnis zu erhalten */
+    vertical-align: middle; /* Damit es in der Mitte der Textzeile ausgerichtet ist */
+    margin-left: 10px; /* Abstand zum Text */
+}
+/* Grundlegendes Styling für die Seite */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Helles Hintergrundfarbe */
+    color: #333; /* Dunkle Schriftfarbe für besseren Kontrast */
+}
+
+header {
+    background: #FF5733; /* Orange-rot für Header */
+    color: #fff; /* Weiße Schriftfarbe im Header */
+    padding: 20px 0; /* Mehr Padding oben und unten */
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff; /* Weiße Schrift für Navigation */
+    text-decoration: none;
+    font-weight: bold; /* Fett für bessere Lesbarkeit */
+    padding: 10px 15px; /* Abstand um die Links */
+    border-radius: 5px; /* Abgerundete Ecken für die Links */
+    transition: background 0.3s; /* Sanfte Übergänge */
+}
+
+nav ul li a:hover {
+    background: #FF8563; /* Dunkleres Orange beim Hover */
+}
+
+main {
+    padding: 20px;
+}
+
+/* Styling für den Über Uns Abschnitt */
+.about {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px; /* Abgerundete Ecken */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Schatten für Tiefe */
+}
+
+.about h2 {
+    color: #ff8c00; /* Orange Farbe für die Überschrift */
+}
+
+/* Teammitglieder-Styling */
+.team-container {
+    display: flex;
+    flex-wrap: wrap; /* Damit die Teammitglieder untereinander angeordnet werden */
+    justify-content: space-around; /* Gleichmäßige Verteilung der Teammitglieder */
+}
+
+.team-member {
+    margin: 20px;
+    text-align: center;
+    background: #fff; /* Weißer Hintergrund für jedes Teammitglied */
+    padding: 15px;
+    border-radius: 5px; /* Abgerundete Ecken */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Schatten für Tiefe */
+    width: 180px; /* Breite der Teammitglieder */
+}
+
+.team-photo {
+    width: 100px; /* Breite der Bilder */
+    height: 100px; /* Höhe der Bilder */
+    object-fit: cover; /* Bild passend zuschneiden */
+    border-radius: 50%; /* Runde Bilder */
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333; /* Dunkler Footer-Hintergrund */
+    color: #fff; /* Weiße Schriftfarbe im Footer */
+}
